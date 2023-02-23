@@ -1,0 +1,36 @@
+body{
+    background: black;
+    padding:0px;
+    box-sizing:border-box;
+    color:white;
+    font-family:'Montserrat', sans-serif;
+}
+.description{
+    margin-top:200px
+}
+
+.myName{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    margin-top:80px;
+    padding-left:120px;
+    padding-right:120px;
+    
+}
+.myName h1{
+    font-weight:900;
+    font-size:55px;
+    margin:0;
+}
+
+.myName h3{
+    font-weight:300;
+    font-style:italic;
+    margin:0;
+    color:rgb(121, 247, 98)
+}
+.myName h4{
+    font-weight:300;
+    margin:0;
+}

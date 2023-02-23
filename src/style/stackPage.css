@@ -1,0 +1,21 @@
+body{
+    background: black;
+    padding:0px;
+    box-sizing:border-box;
+    color:white;
+    font-family:'Montserrat', sans-serif;
+}
+
+.hexNode{ 
+    -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);    
+    width:200px;
+    height:200px;
+    cursor:pointer;
+}
+
+.hexNode img{
+    width:328px;
+    height:325px;
+    margin:-64px;
+}
