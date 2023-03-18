@@ -5,6 +5,19 @@ body{
     color:white;
     font-family:'Montserrat', sans-serif;
 }
+.hiveStack{
+    display:grid;
+    grid-template-columns: 195px 195px 195px 195px;
+    grid-template-rows:160px 160px auto auto;
+    width:850px;
+    margin:auto;
+    margin-top:85px;
+    padding:40px;
+}
+
+.hiveStack div{
+    margin-left:-10px;
+}
 
 .hexNode{ 
     -webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
@@ -18,4 +31,97 @@ body{
     width:328px;
     height:325px;
     margin:-64px;
+}
+#grid5{
+    margin-left:86px;
+}
+#grid5 img{
+    width:185px;
+    height:202px;
+    margin-left:7px;
+    margin-top:-1px;
+}
+#grid6{
+    margin-left:86px;
+}
+#grid7{
+    margin-left:86px;
+}
+#grid8{
+    margin-left:86px;
+}
+#grid8 img{
+    width:185px;
+    height:202px;
+    margin-left:7px;
+    margin-top:-1px;
+}
+#grid4 img{
+    width:185px;
+    height:202px;
+    margin-left:7px;
+    margin-top:-1px;
+}
+#grid10 img{
+    width:180px;
+    height:202px;
+    margin-left:8px;
+    margin-top:-1px;
+}
+#grid1 img{
+    width:180px;
+    height:202px;
+    margin-left:8px;
+    margin-top:-1px;
+}
+#grid12 img{
+    width:180px;
+    height:202px;
+    margin-left:8px;
+    margin-top:-1px;
+}
+dialog{
+    background:rgba(218, 214, 216, 1.0);
+    border:2px solid yellow;
+    box-shadow:-1px 2px 20px 2px rgba(255, 242, 0, 0.58);
+    border-radius:8px;
+    padding:50px;
+}
+.hexNode:hover{
+    transform: scale(1.1);
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.titleStack{
+    display:flex;
+    gap:17px;
+}
+.titleStack img{
+    width:40px;
+    height:40px;
+    margin-top:22px;
+}
+.exit{
+    cursor:pointer;
+    height:50px;
+}
+.exit img{
+    width:30px;
+    height:30px;
+    margin-top:10px;
+}
+.textStack{
+    text-align: left;
+}
+.starRating{
+    display:flex;
+    gap:15px;
+}
+.star{
+    margin-top:22px;
+}
+.checked {
+    color: rgba(255, 242, 0, 0.58);
 }
